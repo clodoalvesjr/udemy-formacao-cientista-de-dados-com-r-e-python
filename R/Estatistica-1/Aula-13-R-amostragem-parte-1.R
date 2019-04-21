@@ -4,15 +4,15 @@
 #Parametros utilizados:
 # - x: Conjunto de dados para a extracao das amostras
 # - size: Quantidade de numeros aleatorios a serem gerados
-# - valor logico. Determina se o experimento eh com reposicao ou nao
-# - Vetor de probabilidade para obtencao dos elementos do conjunto amostrado
+# - replace: valor logico. Determina se o experimento eh com reposicao ou nao
+# - prob: Vetor de probabilidade para obtencao dos elementos do conjunto amostrado
 
 # => length() => Retorna a quantidade de elementos de um conjunto de dados
 #Parametros utilizados:
 # - x: Conjunto de dados
 
 # => set.seed() => Funcao para criar uma semente aleatoriedade para que um experimento ja executado
-#                  possa ser repetido. Para mais informacoes, favor consultar a documentacao
+#                  possa ser repetido.
 
 
 #Retorna amostra simples com repeticao com 150 elementos a partir do conjunto de dados (0, 1)
