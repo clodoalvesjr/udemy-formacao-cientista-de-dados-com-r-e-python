@@ -8,11 +8,11 @@
 # - Vetor de probabilidade para obtencao dos elementos do conjunto amostrado
 
 # => length() => Retorna a quantidade de elementos de um conjunto de dados
-# - x> #Parametros utilizados:
+#Parametros utilizados:
 # - x: Conjunto de dados
 
 # => set.seed() => Funcao para criar uma semente aleatoriedade para que um experimento ja executado
-#            possa ser repetido. Para mais informacoes, favor consultar a documentacao
+#                  possa ser repetido. Para mais informacoes, favor consultar a documentacao
 
 
 #Retorna amostra simples com repeticao com 150 elementos a partir do conjunto de dados (0, 1)
@@ -23,10 +23,10 @@ amostra = sample(c(0,1), 150, replace = TRUE, prob = c(0.5, 0.5))
 #Retorna a quantidade elementos iguais a 1 na amostra gerada
 length(amostra[amostra == 1])
 
-#Retorna a quantidade elementos iguais a 0  na amostra gerada
+#Retorna a quantidade elementos iguais a 0 na amostra gerada
 length(amostra[amostra == 0])
 
-# Cria semente de aleatoriedade para que a geracao da amostra na linha 31 retorne sempre
+# Cria semente de aleatoriedade para que a geracao da amostra na linha 32 retorne sempre
 # o mesmo valor
 
 set.seed(123)
